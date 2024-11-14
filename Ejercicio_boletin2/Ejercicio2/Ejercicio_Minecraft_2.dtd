@@ -1,0 +1,17 @@
+<!ELEMENT minecraftItems (item+)>
+    <!ELEMENT item (name, type, damage?, description, materials, enchantments)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT damage (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT materials (material+)?>
+            <!ELEMENT material (#PCDATA)>
+        <!ELEMENT enchantments (enchantment+)?>
+            <!ELEMENT enchantment (#PCDATA)>
+
+<!ATTLIST minecraftItems lang CDATA #REQUIRED>
+<!ATTLIST item id ID #REQUIRED
+               rarity (comun|raro|epico) #REQUIRED
+               crafteable (true|false) #REQUIRED
+               enchantable (true|false) #REQUIRED
+               N.usos CDATA #REQUIRED>

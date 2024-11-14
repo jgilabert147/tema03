@@ -1,0 +1,12 @@
+<!ELEMENT minecraftItems (item+)>
+    <!ELEMENT item (name, type, damage?, description)>
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT type (#PCDATA)>
+        <!ELEMENT damage (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        <!ELEMENT rarity (#PCDATA)>
+
+<!ATTLIST minecraftItems lang CDATA #REQUIRED>
+<!ATTLIST item id ID #REQUIRED
+          rarity (comun|raro|epico) #REQUIRED>

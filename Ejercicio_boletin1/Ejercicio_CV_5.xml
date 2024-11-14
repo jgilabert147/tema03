@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CV lang="es">
+
+    <info_personal>
+        <nombre>Jacob</nombre>
+        <apellidos>Gilabert Lucas</apellidos>
+        <licenciatura>Técnico en Sistemas Microinformaticos y Redes</licenciatura>
+        <genero>Masculino</genero>
+        <fecha_nacimiento>26/11/2006</fecha_nacimiento>
+        <nacionalidad>Española</nacionalidad>
+    </info_personal>
+
+    <acerca_de_mi>
+        Lorem ipsum dolor sit amet. Est Quis consequatur in dolorum enim ut suscipit 
+        omnis qui enim dicta et Quis natus et accusamus quibusdam quo nostrum iure. 
+        Ex consequatur dolores est voluptatum iusto est asperiores nihil. 
+    </acerca_de_mi>
+
+    <idiomas>
+        <idioma>Castellano</idioma>
+        <idioma>Valenciano</idioma>
+        <idioma>Ingles B1</idioma>
+    </idiomas>
+
+    <contacto>
+        <tel>+34 6XX XX XX XX</tel>
+        <direccion>Av. xxxxxxx xxxxxxx XX</direccion>
+        <email>jacobgilabert@gmail.com</email>
+    </contacto>
+
+    <educacion>
+
+        <titulacion>
+            <nombre>ESO</nombre>
+            <lugar>IES Pedreguer</lugar>
+            <tiempo>2018-2022</tiempo>
+        </titulacion>
+
+        <titulacion>
+            <nombre>SMR</nombre>
+            <lugar>IES La Mar</lugar>
+            <tiempo>2022-2024</tiempo>
+        </titulacion>
+
+        <titulacion>
+            <nombre>ASIR</nombre>
+            <lugar>IES La Mar</lugar>
+            <tiempo>2024-20XX</tiempo>
+        </titulacion>
+
+    </educacion>
+
+    <experiencias>
+
+        <experiencia>
+            <nombre>Tecnico Informatico en redes</nombre>
+            <lugar>UPI Ondara</lugar>
+            <tiempo_empezar>20-03-2024</tiempo_empezar>
+            <tiempo_acabar>13-06-2024</tiempo_acabar>
+            <descripcion>Lorem ipsum dolor sit amet.</descripcion>
+        </experiencia>
+
+    </experiencias>
+
+    <habilidades>
+        <habilidad>Habilidad 1</habilidad>
+        <habilidad>Habilidad 2</habilidad>
+        <habilidad>Habilidad 3</habilidad>
+        <habilidad>Habilidad 4</habilidad>
+        <habilidad>Habilidad 5</habilidad>
+    </habilidades>
+
+</CV>

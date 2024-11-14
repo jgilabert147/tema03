@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<minecraftItems lang="es">
+    <item id="_01" rarity="comun">
+        <name>Espada de Netherite</name>
+        <type>Arma</type>
+        <damage>8 corazones</damage>
+        <description>Arma cuerpo a cuerpo, utilizadas principalmente para atacar a criaturas o jugadores.</description>
+        <crafteable>true</crafteable>
+            <materials>
+                <material>1 Palo</material>
+                <material>2 Lingotes de Netherite</material>
+            </materials>
+        <enchantable>true</enchantable>
+            <enchantments>
+                <enchantment>Aspecto Igneo</enchantment>
+                <enchantment>Afilado</enchantment>
+            </enchantments>
+    </item>
+
+    <item id="_02" rarity="comun">
+        <name>Pala de diamane</name>
+        <type>Herramienta</type>
+        <damage></damage>
+        <description>Herramienta que ayuda en el proceso de excavacion y recoleccion de tierr, arena, grava, arcilla y nieve.</description>
+        <crafteable>true</crafteable>
+        <materials>
+            <material>1 Palo</material>
+            <material>2 Diamantes</material>
+        </materials>
+        <enchantable>true</enchantable>
+            <enchantments>
+                <enchantment>Eficiencia</enchantment>
+                <enchantment>Irompible</enchantment>
+            </enchantments>
+    </item>
+
+    <item  id="_03" rarity="comun">
+        <name>Arco</name>
+        <type>Arma</type>
+        <damage>9 Corazones si esta tensado al maximo</damage>
+        <description>Arma que permite disparar flechas</description>
+        <crafteable>true</crafteable>
+        <materials>
+            <material>3 palos</material>
+            <material>3 hilos</material>
+        </materials>
+        <enchantable>true</enchantable>
+        <enchantments>
+            <enchantment>Infinidad</enchantment>
+            <enchantment>Reparacion</enchantment>
+        </enchantments>
+    </item>
+    
+</minecraftItems>

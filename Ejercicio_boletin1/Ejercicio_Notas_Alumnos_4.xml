@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notas_alumnos lang="es">
+    <alumno>
+        <name>Nombre Alumno</name>
+        <apellidos>Apellido Alumno</apellidos>
+        <nia>NIA Alumno</nia>
+    </alumno>
+    <modulos>
+        <modulo>
+            <name>Base de Datos</name>
+            <no>Nota Obtenida</no>
+        </modulo>
+        <modulo>
+            <name>Lenguaje de Marcas</name>
+            <no>Nota Obtenida</no>
+        </modulo>
+        <modulo>
+            <name>Planificacion y Administracion de redes</name>
+            <no>Nota Obtenida</no>
+        </modulo>
+        <modulo>
+            <name>Fundamentos de Hardware</name>
+            <no>Nota Obtenida</no>
+        </modulo>
+        <modulo>
+            <name>Ingles profesional G</name>
+            <no>Nota Obtenida</no>
+        </modulo>
+        <modulo>
+            <name>Implantacion de SO</name>
+            <no>Nota Obtenida</no>
+        </modulo>
+        <modulo>
+            <name>Proyecto Intermodular</name>
+            <no>Nota Obtenida</no>
+        </modulo>
+    </modulos>
+</notas_alumnos>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<minecraftItems lang="es">
+    <item id="_01" rarity="comun">
+        <name>Hacha de diamante</name>
+        <type>Arma/Herramienta</type>
+        <damage>9 corazones</damage>
+        <description>Herramienta que se usa para la rotura de bloques de materiales organicos duros como la madera o como arma cuerpo a cuerpo</description>
+    </item>
+
+    <item id="_02" rarity="raro">
+        <name>Ender perl</name>
+        <type>Objeto de entidad</type>
+        <damage></damage>
+        <description>Al lanzar esta perla el jugado sera teletransportado en donde haya caido esta, tambien sirven para craftear ojos de ender</description>
+    </item>
+
+    <item id="_03" rarity="comun">
+        <name>Pico de netherite</name>
+        <type>Herramienta</type>
+        <damage></damage>
+        <description>Herramienta para excavar minerales y otros tipos de bloques</description>
+    </item>
+
+    <item id="_04" rarity="comun">
+        <name>Espada de Netherite</name>
+        <type>Arma</type>
+        <damage>8 corazones</damage>
+        <description>Arma cuerpo a cuerpo, utilizadas principalmente para atacar a criaturas o jugadores.</description>
+    </item>
+
+    <item id="_05" rarity="epico">
+        <name>Manzana dorada encantada</name>
+        <type>Alimento</type>
+        <damage></damage>
+        <description>Variante no elaborable de la manzana dorada que tiene efectos mas fuertes</description>
+    </item>
+</minecraftItems>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas SYSTEM "Ejercicio_Listado_facturas.dtd">
+<facturas>
+    <membrete cif="B128392">
+        <razon_social>Empresa S.A.</razon_social>
+        <direccion>Calle Mayor, 1</direccion>
+        <codigo_postal>28001</codigo_postal>
+        <poblacion>Madrid</poblacion>
+        <telefono>912345678</telefono>
+        <email>info@empresa.com</email>
+    </membrete>
+    <cliente dni="_54487189T">
+            <nombre>Juan Pérez</nombre>
+            <direccion>Calle Secundaria, 45</direccion>
+            <codigo_postal>28002</codigo_postal>
+            <poblacion>Madrid</poblacion>
+    </cliente>
+    <factura numero="F001">
+        <fecha>11-11-2024</fecha>
+        <productos>
+            <producto codigo="P001" iva="21" cantidad="2">
+                <descripcion>Producto 1</descripcion>
+                <precio_unitario>10.00</precio_unitario>
+            </producto>
+            <producto codigo="P002" iva="10" cantidad="1">
+                <descripcion>Producto 2</descripcion>
+                <precio_unitario>20.00</precio_unitario>
+            </producto>
+            <producto codigo="P003" iva="21" cantidad="5">
+                <descripcion>Producto 3</descripcion>
+                <precio_unitario>5.00</precio_unitario>
+            </producto>
+        </productos>
+        <resumen forma_pago="tarjeta" descuento="10.00" />
+    </factura>
+</facturas>

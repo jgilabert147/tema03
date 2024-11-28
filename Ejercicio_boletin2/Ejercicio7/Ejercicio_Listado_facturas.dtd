@@ -1,0 +1,35 @@
+<!ELEMENT facturas (membrete,  cliente, factura+)>
+    <!ELEMENT membrete (razon_social, direccion, codigo_postal, poblacion, telefono, email)>
+        <!ELEMENT razon_social (#PCDATA)>
+        <!ELEMENT direccion (#PCDATA)>
+        <!ELEMENT codigo_postal (#PCDATA)>
+        <!ELEMENT poblacion (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+    <!ELEMENT factura (fecha, productos, resumen)>
+        <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT cliente (nombre, direccion, codigo_postal, poblacion)>
+        <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT productos (producto+)>
+        <!ELEMENT producto (descripcion, precio_unitario)>
+            <!ELEMENT descripcion (#PCDATA)>
+            <!ELEMENT precio_unitario (#PCDATA)>
+        <!ELEMENT resumen (#PCDATA)>
+
+<!ATTLIST membrete 
+    cif ID #REQUIRED>
+
+<!ATTLIST factura
+    numero ID #REQUIRED>
+
+<!ATTLIST cliente 
+    dni ID #REQUIRED>
+
+<!ATTLIST producto
+    codigo ID #REQUIRED
+    iva CDATA #REQUIRED
+    cantidad CDATA #REQUIRED>
+
+<!ATTLIST resumen
+    forma_pago (efectivo | tarjeta | cheque | transferencia) #REQUIRED
+    descuento CDATA #IMPLIED>

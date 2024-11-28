@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CV SYSTEM "Ejercicio_CV.dtd">
+
+<CV>
+
+    <info-personal genero="Masculino" nacionalidad="Española">
+        <nombre>Jacob</nombre>
+        <apellidos>Gilabert Lucas</apellidos>
+        <licenciatura>Técnico en Sistemas Microinformaticos y Redes</licenciatura>
+        <fecha-nacimiento>26/11/2006</fecha-nacimiento>
+    </info-personal>
+
+    <acerca>
+        Lorem ipsum dolor sit amet. Est Quis consequatur in dolorum enim ut suscipit 
+        omnis qui enim dicta et Quis natus et accusamus quibusdam quo nostrum iure. 
+        Ex consequatur dolores est voluptatum iusto est asperiores nihil. 
+    </acerca>
+
+    <idiomas>
+        <idioma nombre="Castellano" nivel="Nativo"/>
+        <idioma nombre="Valenciano" nivel="Nativo"/>
+        <idioma nombre="Ingles" nivel="B1"/>
+    </idiomas>
+
+    <contacto>
+        <tel tipo="Movil">+34 6XX XX XX XX</tel>
+        <direccion>Av. xxxxxxx xxxxxxx XX</direccion>
+        <email>jacobgilabert@gmail.com</email>
+    </contacto>
+
+    <educacion>
+
+        <titulacion nivel="Secundaria">
+            <nombre>ESO</nombre>
+            <lugar>IES Pedreguer</lugar>
+            <tiempo>2018-2022</tiempo>
+        </titulacion>
+
+        <titulacion nivel="Grado-Medio">
+            <nombre>SMR</nombre>
+            <lugar>IES La Mar</lugar>
+            <tiempo>2022-2024</tiempo>
+        </titulacion>
+
+        <titulacion nivel="Grado-Superior">
+            <nombre>ASIR</nombre>
+            <lugar>IES La Mar</lugar>
+            <tiempo>2024-202X</tiempo>
+        </titulacion>
+
+    </educacion>
+
+    <experiencias>
+
+        <experiencia>
+            <nombre>Tecnico Informatico en redes</nombre>
+            <lugar>UPI Ondara</lugar>
+            <desde>20-03-2024</desde>
+            <hasta>13-06-2024</hasta>
+            <descripcion>Lorem ipsum dolor sit amet.</descripcion>
+        </experiencia>
+
+    </experiencias>
+
+    <habilidades>
+        <habilidad>Comunicacion</habilidad>
+        <habilidad>Resolucion de problemas</habilidad>
+        <habilidad>Comunicacion</habilidad>
+        <habilidad>Creatividad</habilidad>
+        <habilidad>Pensamiento estrategico</habilidad>
+    </habilidades>
+
+</CV>

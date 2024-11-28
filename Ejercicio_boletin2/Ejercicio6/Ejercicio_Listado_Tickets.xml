@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tickets SYSTEM "Ejercicio_Listado_Tickets.dtd">
+
+<tickets>
+
+    <membrete>
+        <razon_social>Materiales Oficina X  </razon_social>
+        <cif>A12345678</cif>
+        <paginaWeb>www.materialx.com</paginaWeb>
+        <sucursal>
+            <codigoSucursal>001</codigoSucursal>
+            <nombreSucursal>Sucursal Centro</nombreSucursal>
+            <direccion>Calle Mayor 10</direccion>
+            <codigoPostal>28001</codigoPostal>
+            <poblacion>Madrid</poblacion>
+            <telefonos>
+                <telefono tipo="fijo">912345678</telefono>
+                <telefono tipo="movil">622334455</telefono>
+            </telefonos>
+        </sucursal>
+    </membrete>
+
+    <ticket>
+
+        <cabecera id="_01">
+            <fecha>22-06-2024</fecha>
+            <hora>11:30</hora>
+            <empleado>Juan Perez</empleado>
+        </cabecera>
+
+        <lineas>
+            <linea codigo="_0A">
+                <cantidad>3</cantidad>
+                <descripcion>paquete de folios</descripcion>
+                <precio-unitario>4,50</precio-unitario>
+                <importe>13,50</importe>
+            </linea>
+        </lineas>
+
+        <resumen>
+            <forma_pago>tarjeta</forma_pago>
+            <total>13,50</total>
+        </resumen>
+
+    </ticket>
+
+</tickets>

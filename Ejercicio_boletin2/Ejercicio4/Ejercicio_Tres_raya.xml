@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partida SYSTEM "Ejercicio_Tres_raya.dtd">
+
+<partida>
+    <jugadores>
+        <jugador>
+            <nombre>Ana</nombre>
+            <ficha>X</ficha>
+        </jugador>
+        <jugador>
+            <nombre>Carlos</nombre>
+            <ficha>O</ficha>
+        </jugador>
+    </jugadores>
+    <movimientos>
+        <movimiento>
+            <turno>1</turno>
+            <jugador>Ana</jugador>
+            <posicion>
+                <fila>1</fila>
+                <columna>1</columna>
+            </posicion>
+        </movimiento>
+        <movimiento>
+            <turno>2</turno>
+            <jugador>Carlos</jugador>
+            <posicion>
+                <fila>1</fila>
+                <columna>2</columna>
+            </posicion>
+        </movimiento>
+        <movimiento>
+            <turno>3</turno>
+            <jugador>Ana</jugador>
+            <posicion>
+                <fila>2</fila>
+                <columna>1</columna>
+            </posicion>
+        </movimiento>
+        <movimiento>
+            <turno>4</turno>
+            <jugador>Carlos</jugador>
+            <posicion>
+                <fila>2</fila>
+                <columna>2</columna>
+            </posicion>
+        </movimiento>
+    </movimientos>
+</partida>

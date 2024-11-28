@@ -1,0 +1,40 @@
+<!ELEMENT CV (info-personal, acerca, idiomas, contacto, educacion, experiencias, habilidades)>
+    
+    <!ELEMENT info-personal (nombre, apellidos, licenciatura, fecha-nacimiento)>
+        <!ATTLIST info-personal 
+            genero CDATA #REQUIRED
+            nacionalidad CDATA #REQUIRED>
+
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT apellidos (#PCDATA)>
+        <!ELEMENT licenciatura (#PCDATA)>
+        <!ELEMENT fecha-nacimiento (#PCDATA)>
+
+    <!ELEMENT acerca (#PCDATA)>
+
+    <!ELEMENT idiomas (idioma+)>
+        <!ELEMENT idioma (#PCDATA)>
+        <!ATTLIST idioma 
+            nombre CDATA #REQUIRED
+            nivel (Nativo | A2 | B1 | B2 | C1 | C2) #REQUIRED>
+
+    <!ELEMENT contacto (tel, direccion, email)>
+        <!ELEMENT tel (#PCDATA)>
+            <!ATTLIST tel tipo (Movil | Fijo) #IMPLIED>
+        <!ELEMENT direccion (#PCDATA)>
+        <!ELEMENT email (#PCDATA)>
+
+    <!ELEMENT educacion (titulacion+)>
+        <!ELEMENT titulacion (nombre, lugar, tiempo)>
+        <!ATTLIST titulacion nivel (Secundaria | Grado-Basico | Grado-Medio | Grado-Superior | Especializacion | Batchillerato | Grado-Universitario | Master) #REQUIRED>
+            <!ELEMENT lugar (#PCDATA)>
+            <!ELEMENT tiempo (#PCDATA)>
+
+    <!ELEMENT experiencias (experiencia+)>
+        <!ELEMENT experiencia (nombre, lugar, desde, hasta, descripcion)>
+            <!ELEMENT desde (#PCDATA)>
+            <!ELEMENT hasta (#PCDATA)>
+            <!ELEMENT descripcion (#PCDATA)>
+
+    <!ELEMENT habilidades (habilidad+)>
+        <!ELEMENT habilidad (#PCDATA)>

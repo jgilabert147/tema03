@@ -1,0 +1,32 @@
+<!ELEMENT tickets (membrete, ticket+)>
+    <!ELEMENT membrete (razon_social, cif, paginaWeb, sucursal)>
+        <!ELEMENT razon_social (#PCDATA)>
+        <!ELEMENT cif (#PCDATA)>
+        <!ELEMENT paginaWeb (#PCDATA)>
+        <!ELEMENT sucursal (codigoSucursal, nombreSucursal, direccion, codigoPostal, poblacion, telefonos)>
+            <!ELEMENT codigoSucursal (#PCDATA)>
+            <!ELEMENT nombreSucursal (#PCDATA)>
+            <!ELEMENT direccion (#PCDATA)>
+            <!ELEMENT codigoPostal (#PCDATA)>
+            <!ELEMENT poblacion (#PCDATA)>    
+            <!ELEMENT telefonos (telefono+)>
+                <!ELEMENT telefono (#PCDATA)>
+                
+    <!ELEMENT ticket (cabecera, lineas, resumen)>
+        <!ELEMENT cabecera (fecha, hora, empleado)>
+            <!ELEMENT fecha (#PCDATA)>
+            <!ELEMENT hora (#PCDATA)>
+            <!ELEMENT empleado (#PCDATA)>
+        <!ELEMENT lineas (linea+)>
+            <!ELEMENT linea (cantidad, descripcion, precio-unitario, importe)>
+                <!ELEMENT cantidad (#PCDATA)>
+                <!ELEMENT descripcion (#PCDATA)>
+                <!ELEMENT precio-unitario (#PCDATA)>
+                <!ELEMENT importe (#PCDATA)>
+        <!ELEMENT resumen (forma_pago, total)>
+            <!ELEMENT forma_pago (#PCDATA)>
+            <!ELEMENT total (#PCDATA)>
+
+<!ATTLIST telefono tipo (fijo | movil) #REQUIRED>
+<!ATTLIST cabecera id ID #REQUIRED>
+<!ATTLIST linea codigo ID #REQUIRED>

@@ -1,0 +1,11 @@
+<!ELEMENT partida (jugadores, movimientos)>
+    <!ELEMENT jugadores (jugador+)>
+        <!ELEMENT jugador (nombre, ficha)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT ficha (#PCDATA)>
+    <!ELEMENT movimientos (movimiento+)>
+        <!ELEMENT movimiento (turno, jugador, posicion)>
+            <!ELEMENT turno (#PCDATA)>
+            <!ELEMENT posicion (fila, columna)>
+                <!ELEMENT fila (#PCDATA)>
+                <!ELEMENT columna (#PCDATA)>
